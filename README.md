@@ -1,2 +1,2 @@
 # LeetCodeProj
-Personal LeetCode practices
+## Personal LeetCode practices
