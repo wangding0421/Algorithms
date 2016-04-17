@@ -34,6 +34,15 @@ We know that the weight of $e_2$ is bigger than the weight of $e_1$, and therefo
 
 ### 2 ###
 
+#### a ####
+
+Assume that $i \leq d_1 + 1, j > d_1 + 1$ and there is a link between $v_1$ and $v_j$. Then we can have $(v_1, v_i) \notin E and (v_1, v_j) \in E$.
+
+Another thing is that we know that the degree of $v_i$ should be bigger than or equal to $v_j$, and since we already have $(v_1, v_i) \notin E and (v_1, v_j) \in E$. We know that there must be another node $u$ that $(u, v_i) \in E and (u, v_j) \notin E$.
+
+#### b ####
+
+
 
 
 ### 3 ###
