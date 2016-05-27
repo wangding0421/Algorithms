@@ -1,3 +1,6 @@
+/*
+  See explaination at: https://leetcode.com/discuss/19847/simple-c-c-solution-with-detailed-explaination
+ */
 #include <iostream>
 using namespace std;
 
