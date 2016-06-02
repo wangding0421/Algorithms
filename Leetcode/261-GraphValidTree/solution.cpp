@@ -38,6 +38,7 @@ private:
   }
 
   void _union(int node1, int node2){
+    /*
     int px = find(node1);
     int py = find(node2);
     if (px == py) {
@@ -52,7 +53,8 @@ private:
     if (rank[px] == rank[py]) {
       rank[py]++;
     }
-    //father[find(node1)] = find(node2);
+    */
+    father[find(node1)] = find(node2);
   }
 
 };
@@ -64,7 +66,7 @@ int main()
   edges.push_back(pair<int, int>(0,1));
   edges.push_back(pair<int, int>(1,2));
   edges.push_back(pair<int, int>(0,3));
-  edges.push_back(pair<int, int>(2,3));
+  //edges.push_back(pair<int, int>(2,3));
   cout << s.validTree(4, edges) << endl;
 }
 
